@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 150px;
+  }
+  
+  .resume-container {
+    display: flex;
+    background-color: rgba(224, 215, 224, 0.925);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section {
+    background-color: rgb(42, 8, 105);
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(109, 104, 104);
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(109, 104, 104);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #11a2ce;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  .right-section {
+    padding: 20px;
+    width: 65%;
+  }
+  
+  button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #054a8f;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #6ca8f7;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 1024px) {
+    .resume-container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .resume-container {
+      flex-direction: column;
+      width: 95%;
+    }
+  
+    .left-section,
+    .right-section {
+      width: 100%;
+      border-right: none;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 20px;
+    }
+  
+    .resume-container {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
